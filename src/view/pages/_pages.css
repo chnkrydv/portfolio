@@ -1,0 +1,107 @@
+.jobs{
+  overflow: hidden;
+  margin-left: -20px;
+}
+
+.job{
+  display: grid;
+  grid-template-columns: 175px 1fr;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.job__item{
+  padding: 0 0 35px 12%;
+}
+
+.job__item__title{
+  margin-top: -6px;
+  font-size: 20px;
+  font-style: italic;
+  color: #b0b0b0;
+  text-align: left;
+}
+
+.job__item__card{
+  display: grid;
+  grid-template-columns: 3fr 13fr 2fr;
+  margin-top: 50px;
+  margin-right: 30px;
+  padding: 40px 0 20px 0;
+  height: auto;
+  text-align: left;
+  background-color: #f8f8f8;
+  box-shadow: 0 5px 11px 2px #eee;
+}
+
+.job__item__card__logo{
+  justify-self: center;
+  height: 20px;
+  max-width: 30px;
+}
+
+.job__item__card__details {
+  justify-self: start;
+}
+
+.card__details__company {
+  margin-top: -3px;
+  color: #666;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.card__details__designation {
+  margin-top: 5px;
+  color: #666;
+  font-size: 17px;
+}
+
+.card__details__achievements {
+  padding: 20px 0 30px 0;
+}
+
+.achievements__achievement {
+  width: auto;
+  background-color: white;
+  border-radius: 5px;
+  height: auto;
+  line-height: 20px;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: #666;
+  margin: 15px 0;
+}
+
+.card__details__works {
+  color: #888;
+}
+
+.works_work {
+  border-top: 1px solid #eee;
+  padding: 40px 0;
+}
+
+.works_work__app {
+  word-spacing: 4px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.works_work__role {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #666;
+}
+
+.works_work__description {
+  font-family: 'Barlow', sans-serif;
+  font-size: 12px;
+  letter-spacing: -0.2px;
+  word-spacing: 4px;
+}
+
+.jobs__last{
+  margin-top: -30px;
+}

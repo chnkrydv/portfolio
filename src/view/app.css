@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow|Barlow+Condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body {
+  background-color: #f8f8f8;
+}
+
+.app {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 25fr 84fr;
+  top: 20px;
+  bottom: 40px;
+  right: 10%;
+  left: 10%;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 15px 20px 5px #ccc;
+  font-family: 'Barlow Condensed', sans-serif;
+  overflow: hidden;
+}
+
+.hidden{
+  display: none;
+}
