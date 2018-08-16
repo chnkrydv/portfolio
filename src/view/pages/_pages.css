@@ -1,6 +1,6 @@
 .jobs{
   overflow: hidden;
-  margin-left: -20px;
+  margin: 0 2%;
 }
 
 .job{
@@ -11,7 +11,7 @@
 }
 
 .job__item{
-  padding: 0 0 35px 12%;
+  padding: 0 0 35px 8%;
 }
 
 .job__item__title{
