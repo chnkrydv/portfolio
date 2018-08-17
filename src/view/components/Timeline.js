@@ -2,9 +2,9 @@ import React from 'react';
 
 import './_components.css';
 
-const Timeline = ({ isHorizontal, title, subtitle, ongoing, lastItemInfoClass }) => {
+const Timeline = ({ className = '', isHorizontal, title, subtitle, ongoing, lastItemInfoClass }) => {
   return (
-    <div className={`timeline ${isHorizontal ? 'timeline--horizontal' : ''}`}>
+    <div className={`timeline ${isHorizontal ? 'timeline--horizontal' : ''} ${className}`}>
       <div className={`timeline__info ${lastItemInfoClass}`}>
         <div className="timeline__info__title">{title}</div>
         <div className="timeline__info__subtitle">{subtitle}</div>

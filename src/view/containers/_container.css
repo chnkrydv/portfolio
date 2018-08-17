@@ -90,6 +90,10 @@
   overflow: hidden;
 }
 
+.content__header{
+  grid-column: 1 / span 2;
+}
+
 .content__item{
   grid-row: 2;
   border: 1px solid #fff;

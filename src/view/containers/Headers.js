@@ -6,10 +6,11 @@ import { selectTab } from '../../store/actions';
 import { TabMenu } from '../components/';
 import './_container.css';
 
-const Headers = ({ selectedMenuIndex, selectedTabIndex, selectTab }) => {
+const Headers = ({ className, selectedMenuIndex, selectedTabIndex, selectTab }) => {
   const { getTabs } = barebone;
   return (
     <TabMenu
+      className={className}
       tabs={getTabs(selectedMenuIndex)}
       selectedTabIndex={selectedTabIndex}
       onTabSelect={selectTab}

@@ -42,7 +42,7 @@ const Content = ({ selectedMenuIndex, selectedTabIndex, log, scroll, scrollTopMa
 
   return (
     <div className="content">
-      <Headers />
+      <Headers className="content__header" />
       <div
         className="content__item"
         onScroll={({ target }) => {

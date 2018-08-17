@@ -2,9 +2,9 @@ import React from 'react';
 
 import './_components.css';
 
-const TabMenu = ({ tabs, selectedTabIndex, onTabSelect }) => {
+const TabMenu = ({ className = '', tabs, selectedTabIndex, onTabSelect }) => {
   return (
-    <div className="tabs">
+    <div className={"tabs " + className}>
       {
         tabs.map((tab, key) => (
           <div
