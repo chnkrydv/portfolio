@@ -8,7 +8,13 @@ const selectTab = (tabIndex) => ({
   tabIndex
 })
 
+const log = logObject => ({
+  type: 'LOG',
+  logObject
+})
+
 export { 
   selectMenu,
-  selectTab
+  selectTab,
+  log
 }

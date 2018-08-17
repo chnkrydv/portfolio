@@ -19,9 +19,9 @@
 .profile__image{
   align-items: flex-start;
   margin: 0 auto;
-  height: 80px;
-  width: 80px;
-  border-radius: 45px;
+  height: auto;
+  width: 40%;
+  border-radius: 51%;
   box-shadow: 0 8px 20px 4px #ccc;
   cursor: pointer;
 }
@@ -57,8 +57,11 @@
 
 
 .menu {
+  display: grid;
   align-self: center;
   margin-top: 10px;
+  height: 67%;
+  align-items: center;
 }
 
 .menu__title{
@@ -77,9 +80,10 @@
 
 
 .content {
-  padding: 30px;
   display: grid;
+  grid-template-columns: 1fr 20px;
   grid-template-rows: 3fr 14fr;
+  padding: 30px;
   text-align: center;
   background-color: white;
   color: #707070;
@@ -90,6 +94,12 @@
   grid-row: 2;
   border: 1px solid #fff;
   overflow: hidden;
+}
+
+.content__scrollbar{
+  grid-row: 2;
+  position: relative;
+  right: -40px;
 }
 
 .content__item__scrollable{

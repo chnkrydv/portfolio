@@ -6,6 +6,7 @@ import { selectMenu } from '../../store/actions';
 import { Headers } from './';
 import { Apps, Blogs, Designs, Education, Flicks, Food, Jobs, Skills, Social, Testimonial, Travel } from '../pages/';
 import './_container.css';
+import { Scrollbar } from '../components';
 
 const Content = ({ selectedMenuIndex, selectedTabIndex }) => {
   const { getPage } = barebone;
@@ -41,15 +42,15 @@ const Content = ({ selectedMenuIndex, selectedTabIndex }) => {
 
   return (
     <div className="content">
-      <Headers
-        headers={['EDUCATION', 'SKILS']}
-        selectedHeaderIndex={1}
-      />
+      <Headers />
       <div className="content__item">
         <div className="content__item__scrollable">
           {getPageComponent()}
         </div>
       </div>
+      <Scrollbar
+        className="content__scrollbar"
+      />
     </div>
   );
 }

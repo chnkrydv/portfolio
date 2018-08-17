@@ -113,3 +113,33 @@
   font-weight: 600;
   color: #888;
 }
+
+.scroll{
+  width: 4px;
+  height: 100%;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.scroll__bar{
+  width: 4px;
+  height: 30%;
+  background-color: #d0d0d0;
+  border-radius: 4px;
+}
+
+.logger{
+  position: fixed;
+  font-size: 12px;
+  bottom: 20px;
+  left: 20px;
+  min-height: 60px;
+  min-width: 80px;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.logger__log{}
