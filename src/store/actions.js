@@ -13,8 +13,15 @@ const log = logObject => ({
   logObject
 })
 
+const scroll = (height, top) => ({
+  type: 'SCROLL',
+  height,
+  top
+})
+
 export { 
   selectMenu,
   selectTab,
-  log
+  log,
+  scroll
 }
