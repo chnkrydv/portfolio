@@ -29,7 +29,7 @@ const gigsPages = [
 const blogsPages = [
   {
     header: 'BLOGS',
-    content: {}
+    content: page.blogsPageContent
   }
 ];
 const fuelPages = [
@@ -111,9 +111,17 @@ const getTabs = areaIndex => areas[areaIndex].pages.reduce((headers, page) => he
 
 const getPage = (areaIndex, pageIndex) => areas[areaIndex].pages[pageIndex];
 
+const getBlogs = () => page.blogsPageContent.blogs;
+
+const getAllBlogTags = () => new Set(
+  page.blogsPageContent.blogs.reduce( (tags, blog) => [...tags, ...blog.tags], [])
+);
+
 export default {
   barebone,
   getMenus,
   getTabs,
   getPage,
+  getBlogs,
+  getAllBlogTags
 };

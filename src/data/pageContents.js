@@ -84,6 +84,68 @@ const jobsPageContent = {
   ]
 };
 
+const blogsPageContent = {
+  blogs: [
+    {
+      title: 'Was Tulasidas a scientist?',
+      imageSrc: 'images/blogs/tulsidas.jpg',
+      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      link: 'https://medium.com/@chnkrydv/was-tulasidas-a-scientist-9aba4bb85855',
+      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
+    },
+    {
+      title: 'The Psychology of Ambitions',
+      imageSrc: 'images/blogs/ambition.jpg',
+      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      link: 'https://medium.com/@chnkrydv/was-tulasidas-a-scientist-9aba4bb85855',
+      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
+    },
+    {
+      title: 'Karma is not a bitch but the most sophisticated Algorithm for life',
+      imageSrc: 'images/blogs/karma.jpg',
+      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      link: 'https://medium.com/p/e269d5eb15cd/edit',
+      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
+    },
+    {
+      title: 'Was Tulasidas a scientist?',
+      imageSrc: 'images/blogs/tulsidas.jpg',
+      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      link: 'https://medium.com/@chnkrydv/was-tulasidas-a-scientist-9aba4bb85855',
+      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
+    },
+    {
+      title: 'Karma is not a bitch but the most sophisticated Algorithm for life',
+      imageSrc: 'images/blogs/karma.jpg',
+      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      link: 'https://medium.com/p/e269d5eb15cd/edit',
+      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
+    },
+    {
+      title: 'Was Tulasidas a scientist?',
+      imageSrc: 'images/blogs/tulsidas.jpg',
+      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      link: 'https://medium.com/@chnkrydv/was-tulasidas-a-scientist-9aba4bb85855',
+      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
+    },
+    {
+      title: 'The Psychology of Ambitions',
+      imageSrc: 'images/blogs/ambition.jpg',
+      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      link: 'https://medium.com/@chnkrydv/was-tulasidas-a-scientist-9aba4bb85855',
+      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
+    },
+    {
+      title: 'Karma is not a bitch but the most sophisticated Algorithm for life',
+      imageSrc: 'images/blogs/karma.jpg',
+      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      link: 'https://medium.com/p/e269d5eb15cd/edit',
+      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
+    },
+  ]
+}
+
 export default {
   jobsPageContent,
+  blogsPageContent
 };
