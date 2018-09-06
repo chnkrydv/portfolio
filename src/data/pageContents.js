@@ -89,56 +89,56 @@ const blogsPageContent = {
     {
       title: 'Was Tulasidas a scientist?',
       imageSrc: 'images/blogs/tulsidas.jpg',
-      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      synopsis: "It’s a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the core of this article is not to prove or disprove whether Goswami Tulasidas was a scientist or not. Rather in this article we’ll try to analyze about something miraculous he wrote in one of his creations — Hanuman Chalisa, which led us to suspect that he was indeed a scientist.",
       link: 'https://medium.com/@chnkrydv/was-tulasidas-a-scientist-9aba4bb85855',
       tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
     },
     {
       title: 'The Psychology of Ambitions',
       imageSrc: 'images/blogs/ambition.jpg',
-      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
-      link: 'https://medium.com/@chnkrydv/was-tulasidas-a-scientist-9aba4bb85855',
+      synopsis: "We, as one of the most advanced living beings, are full of desires. Desires be the first and last things in our life. It ranges from ‘turning our head in our own effing way’ to, may be, ‘slapping the president’. Desires can be from anything to everything. But when does a desire become ambition and when it does not?",
+      link: 'https://medium.com/@chnkrydv/the-psychology-of-ambitions-29e092f06ceb',
       tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
     },
     {
       title: 'Karma is not a bitch but the most sophisticated Algorithm for life',
       imageSrc: 'images/blogs/karma.jpg',
-      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      synopsis: "This is a widely believed perspective  that Karma is something like a 'Watcher', 'Punisher' or 'Grim Reaper' who only work in those (bad) shifts where they just have to go back to people saying - Watch ya'all. I know what you did last summer - willingly or unwillingly. There is no such shift for giving flowers to people who did good some time in past. Poor Karma! :(",
       link: 'https://medium.com/p/e269d5eb15cd/edit',
       tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
     },
     {
       title: 'Was Tulasidas a scientist?',
       imageSrc: 'images/blogs/tulsidas.jpg',
-      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      synopsis: "It’s a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the core of this article is not to prove or disprove whether Goswami Tulasidas was a scientist or not. Rather in this article we’ll try to analyze about something miraculous he wrote in one of his creations — Hanuman Chalisa, which led us to suspect that he was indeed a scientist.",
       link: 'https://medium.com/@chnkrydv/was-tulasidas-a-scientist-9aba4bb85855',
       tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
     },
     {
       title: 'Karma is not a bitch but the most sophisticated Algorithm for life',
       imageSrc: 'images/blogs/karma.jpg',
-      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      synopsis: "This is a widely believed perspective  that Karma is something like a 'Watcher', 'Punisher' or 'Grim Reaper' who only work in those (bad) shifts where they just have to go back to people saying - Watch ya'all. I know what you did last summer - willingly or unwillingly. There is no such shift for giving flowers to people who did good some time in past. Poor Karma! :(",
       link: 'https://medium.com/p/e269d5eb15cd/edit',
       tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
     },
     {
       title: 'Was Tulasidas a scientist?',
       imageSrc: 'images/blogs/tulsidas.jpg',
-      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      synopsis: "It’s a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the core of this article is not to prove or disprove whether Goswami Tulasidas was a scientist or not. Rather in this article we’ll try to analyze about something miraculous he wrote in one of his creations — Hanuman Chalisa, which led us to suspect that he was indeed a scientist.",
       link: 'https://medium.com/@chnkrydv/was-tulasidas-a-scientist-9aba4bb85855',
       tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
     },
     {
       title: 'The Psychology of Ambitions',
       imageSrc: 'images/blogs/ambition.jpg',
-      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
-      link: 'https://medium.com/@chnkrydv/was-tulasidas-a-scientist-9aba4bb85855',
+      synopsis: "We, as one of the most advanced living beings, are full of desires. Desires be the first and last things in our life. It ranges from ‘turning our head in our own effing way’ to, may be, ‘slapping the president’. Desires can be from anything to everything. But when does a desire become ambition and when it does not?",
+      link: 'https://medium.com/@chnkrydv/the-psychology-of-ambitions-29e092f06ceb',
       tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
     },
     {
       title: 'Karma is not a bitch but the most sophisticated Algorithm for life',
       imageSrc: 'images/blogs/karma.jpg',
-      synopsis: "It's a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the cod.",
+      synopsis: "This is a widely believed perspective  that Karma is something like a 'Watcher', 'Punisher' or 'Grim Reaper' who only work in those (bad) shifts where they just have to go back to people saying - Watch ya'all. I know what you did last summer - willingly or unwillingly. There is no such shift for giving flowers to people who did good some time in past. Poor Karma! :(",
       link: 'https://medium.com/p/e269d5eb15cd/edit',
       tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
     },

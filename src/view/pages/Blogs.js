@@ -1,6 +1,6 @@
 import React from 'react';
 import './_pages.css';
-import Chip from '../components/Chip';
+import { Card, Chip } from '../components/';
 import barebone from '../../data/barebone';
 
 const Blogs = () => {
@@ -25,7 +25,7 @@ const Column = ({ blogs, columnIndex }) => (
   <div>
     {blogs.map((blog, i) => (
       i % 3 === columnIndex ?
-        <Card
+        <BlogCard
           title={blog.title}
           imageSrc={blog.imageSrc}
           synopsis={blog.synopsis}
@@ -36,13 +36,13 @@ const Column = ({ blogs, columnIndex }) => (
   </div>
 );
 
-const Card = ({ title, imageSrc, synopsis, link }) => (
-  <div className="blogs__card">
-    <div className="blogs__card__title">{title}</div>
-    <img className="blogs__card__image" src={imageSrc} />
-    <div className="blogs__card__description">{synopsis}</div>
-    <a className="blogs__card__link" href={link} target="_blank">Read more...</a>
-  </div>
+const BlogCard = ({ title, imageSrc, synopsis, link }) => (
+  <Card className="blog">
+    <div className="blog__title">{title}</div>
+    <img className="blog__image" src={imageSrc} />
+    <div className="blog__description">{synopsis}</div>
+    <a className="blog__link" href={link} target="_blank">Read more...</a>
+  </Card>
 );
 
 export default Blogs;

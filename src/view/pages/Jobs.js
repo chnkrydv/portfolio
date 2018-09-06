@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Timeline } from '../components/';
+import { Card, Timeline } from '../components/';
 import page from '../../data/pageContents';
 
 import './_pages.css';
@@ -26,7 +26,7 @@ const Jobs = () => {
               key === jobs.length
                 ? null
                 : (
-                  <div className="job__item__card">
+                  <Card className="job__item__card" lightShadow={true}>
                     <img className="job__item__card__logo" src={job.logo} />
                     <div className="job__item__card__details">
                       <div className="card__details__company">{job.company}</div>
@@ -46,7 +46,7 @@ const Jobs = () => {
                         ))}
                       </div>
                     </div>
-                  </div>
+                  </Card>
                 )
             }
           </div>
@@ -55,5 +55,7 @@ const Jobs = () => {
     </div>
   );
 }
+
+// const Job = () => ();
 
 export default Jobs;
