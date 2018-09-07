@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import barebone from '../../data/barebone';
 import { selectMenu, log, scroll } from '../../store/actions';
 import { Headers } from './';
-import { Apps, Blogs, Designs, Education, Flicks, Food, Jobs, Skills, Social, Testimonial, Travel } from '../pages/';
+import { Apps, Blogs, Designs, Education, Flicks, Food, Jobs, Skills, Social, Testimonials, Travel } from '../pages/';
 import './_container.css';
 import { Scrollbar } from '../components';
 
@@ -31,8 +31,8 @@ const Content = ({ selectedMenuIndex, selectedTabIndex, log, scroll, scrollTopMa
         return <Skills />;
       case 'SOCIAL COMPULSION':
         return <Social />;
-      case 'TESTIMONIAL':
-        return <Testimonial />;
+      case 'TESTIMONIALS':
+        return <Testimonials />;
       case 'DREAM':
         return <Travel />;
       default:

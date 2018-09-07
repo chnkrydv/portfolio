@@ -46,10 +46,10 @@ const fuelPages = [
     content: {}
   }
 ];
-const testimoniesPages = [
+const testimonialsPages = [
   {
-    header: 'TESTIMONIAL',
-    content: {}
+    header: 'TESTIMONIALS',
+    content: page.testimonialsPageContent
   }
 ];
 const socialPages = [
@@ -86,9 +86,9 @@ const areas = [
     pages: fuelPages
   },
   {
-    name: 'testimonies',
+    name: 'testimonials',
     menuTitle: 'kind words about me',
-    pages: testimoniesPages
+    pages: testimonialsPages
   },
   {
     name: 'social',
@@ -117,11 +117,20 @@ const getAllBlogTags = () => new Set(
   page.blogsPageContent.blogs.reduce( (tags, blog) => [...tags, ...blog.tags], [])
 );
 
+const getTestimonials = () => page.testimonialsPageContent.testimonials;
+
+const getMyProfile = () => ({
+  profilePic: page.testimonialsPageContent.myProfilePic,
+  linkedIn: page.testimonialsPageContent.myLinkedIn
+});
+
 export default {
   barebone,
   getMenus,
   getTabs,
   getPage,
   getBlogs,
-  getAllBlogTags
+  getAllBlogTags,
+  getTestimonials,
+  getMyProfile,
 };

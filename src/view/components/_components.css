@@ -1,3 +1,13 @@
+
+
+.avatar{
+  border-radius: 51%;
+  box-shadow: 0 8px 20px 4px #ccc;
+  cursor: pointer;
+}
+
+
+
 .card{
   height: auto;
   width: 100%;

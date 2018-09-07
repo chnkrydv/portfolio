@@ -7,7 +7,7 @@ import Food from './Food';
 import Jobs from './Jobs';
 import Skills from './Skills';
 import Social from './Social';
-import Testimonial from './Testimonial';
+import Testimonials from './Testimonials';
 import Travel from './Travel';
 
 export {
@@ -20,6 +20,6 @@ export {
   Jobs,
   Skills,
   Social,
-  Testimonial,
+  Testimonials,
   Travel,
 }

@@ -1,4 +1,6 @@
-const logoPath = 'images/companies/'
+const logoPath = 'images/companies/';
+const people = name => `images/people/${name.toLowerCase()}.jpg`;
+const emoji = name => `images/emojis/${name.toLowerCase()}.png`;
 
 const jobsPageContent = {
   jobs: [
@@ -145,7 +147,42 @@ const blogsPageContent = {
   ]
 }
 
+const testimonialsPageContent = {
+  myProfilePic: people('me'),
+  myLinkedIn: 'https://www.linkedin.com/in/chnkrydv/',
+  testimonials: [
+    {
+      friend: 'Saurabh Kumar',
+      profilePic: people('Saurabh'),
+      linkedIn: 'https://www.linkedin.com/in/saurabhkr146/',
+      designation: 'UX Designer',
+      company: "Byju's",
+      testimonial: "Some of the testimonial videos aren't production-quality, but they get the message across and cover useful and relevant information -- which goes to show you don't need to invest thousands in production to get some testimonial videos up. Finally, in the theme of earning trust, we love that mHelpDesk closes out its testimonial page with awards and badges of recognition.",
+      myReactions: [emoji('blush'), emoji('love')]
+    },
+    {
+      friend: 'Eshun Sharma',
+      profilePic: people('Eshun'),
+      linkedIn: 'https://www.linkedin.com/in/eshunsharma/',
+      designation: 'Frntend Developer',
+      company: "Pearson",
+      testimonial: "Some of the testimonial videos aren't production-quality, but they get the message across and cover useful and relevant information -- which goes to show you don't need to invest thousands in production to get some testimonial videos up. Finally, in the theme of earning trust, we love that mHelpDesk closes out its testimonial page with awards and badges of recognition.",
+      myReactions: [emoji('happy'), emoji('blush')]
+    },
+    {
+      friend: 'Sanjay Agarwal',
+      profilePic: people('Sanjay'),
+      linkedIn: 'https://www.linkedin.com/in/sanjay-agarwal-6243965a/',
+      designation: 'Mathematics Tutor',
+      company: "Allen's",
+      testimonial: "Some of the testimonial videos aren't production-quality, but they get the message across and cover useful and relevant information -- which goes to show you don't need to invest thousands in production to get some testimonial videos up. Finally, in the theme of earning trust, we love that mHelpDesk closes out its testimonial page with awards and badges of recognition.",
+      myReactions: [emoji('happy'), emoji('shh'), emoji('love')]
+    },
+  ]
+}
+
 export default {
   jobsPageContent,
-  blogsPageContent
+  blogsPageContent,
+  testimonialsPageContent,
 };
