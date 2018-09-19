@@ -5,7 +5,7 @@ import './_components.css';
 const Timeline = ({ className = '', isHorizontal, title, subtitle, ongoing, lastItemInfoClass }) => {
   return (
     <div className={`timeline ${isHorizontal ? 'timeline--horizontal' : ''} ${className}`}>
-      <div className={`timeline__info ${lastItemInfoClass}`}>
+      <div className={`timeline__info ${isHorizontal ? 'timeline__info--horizontal' : ''} ${lastItemInfoClass}`}>
         <div className="timeline__info__title">{title}</div>
         <div className="timeline__info__subtitle">{subtitle}</div>
       </div>
@@ -21,5 +21,9 @@ const Timeline = ({ className = '', isHorizontal, title, subtitle, ongoing, last
     </div>
   );
 }
+
+const VerticalTimeline = () => {};
+
+const HorizontalTimeline = () => {};
 
 export default Timeline;

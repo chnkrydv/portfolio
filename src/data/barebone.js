@@ -9,7 +9,7 @@ const jobPages = [
 const knowledgePages = [
   {
     header: 'EDUCATION',
-    content: {}
+    content: page.educationContent
   },
   {
     header: 'SKILLS',
@@ -62,7 +62,7 @@ const socialPages = [
 const areas = [
   {
     name: 'jobs',
-    menuTitle: 'things i have to do for food',
+    menuTitle: 'job details',
     pages: jobPages
   },
   {
@@ -72,27 +72,27 @@ const areas = [
   },
   {
     name: 'gigs',
-    menuTitle: 'my secret collection',
+    menuTitle: 'gigs',
     pages: gigsPages
   },
   {
     name: 'blogs',
-    menuTitle: 'moments of enlightenment',
+    menuTitle: 'blog posts',
     pages: blogsPages
   },
   {
     name: 'fuel',
-    menuTitle: 'fuel for my life',
+    menuTitle: 'fuel for life',
     pages: fuelPages
   },
   {
     name: 'testimonials',
-    menuTitle: 'kind words about me',
+    menuTitle: 'kind words',
     pages: testimonialsPages
   },
   {
     name: 'social',
-    menuTitle: 'you can judge me here',
+    menuTitle: 'judge me here',
     pages: socialPages
   },
 ];

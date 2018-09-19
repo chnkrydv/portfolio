@@ -8,11 +8,11 @@ body {
 .app {
   position: absolute;
   display: grid;
-  grid-template-columns: 25fr 84fr;
+  grid-template-columns: 25fr 90fr;
   top: 20px;
   bottom: 40px;
-  right: 10%;
-  left: 10%;
+  right: 8%;
+  left: 8%;
   text-align: center;
   background-color: white;
   box-shadow: 0 15px 20px 5px #ccc;

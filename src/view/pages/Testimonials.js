@@ -21,8 +21,8 @@ const Testimonials = () => {
             linkedIn={testimonial.linkedIn}
           />
           <Card className="testimonial__card">
-            <div className="testimonial__citation">,,</div>
-            <div className="testimonial__text">{testimonial.testimonial}</div>
+            <div className="testimonial__card__citation">,,</div>
+            <div className="testimonial__card__text">{testimonial.testimonial}</div>
           </Card>
           <Me
             myProfilePic={my.profilePic}

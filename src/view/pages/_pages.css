@@ -196,10 +196,9 @@
 
 .testimonial__card{
   padding: 10px 50px 60px 50px;
-  width: auto;
 }
 
-.testimonial__citation{
+.testimonial__card__citation{
   margin-bottom: 20px;
   font-family: 'Rozha One', serif;
   color: #bababa;
@@ -209,7 +208,7 @@
   letter-spacing: -0.5px;
 }
 
-.testimonial__text{
+.testimonial__card__text{
   font-family: 'Barlow', sans-serif;
   color: #808080;
   font-size: 13px;
@@ -233,4 +232,78 @@
   display: grid;
   grid-template-rows: repeat(auto-fill, 40px);
   align-items: flex-end;
+}
+
+
+
+
+
+.education{
+  display: grid;
+  grid-template-rows: 45px 1fr;
+  width: auto;
+  margin: 0 45px;
+  padding-bottom: 50px;
+}
+
+.education__timeline{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 15px;
+  grid-column-gap: 25px;
+}
+
+.education__content{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-column-gap: 40px;
+  padding: 0 40px;
+}
+
+.education__school{
+  height: auto;
+  background-color: #f8f8f8;
+  color: #A0A0A0;
+}
+
+.school__name{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.school__score{
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  color: #FF9E9E;
+}
+
+.school__content{
+  background-color: white;
+  text-align: left;
+  padding: 20px;
+}
+
+.school__content__degree{
+  font-size: 14px;
+  font-weight: 600;
+  height: 20px;
+}
+
+.school__content__subject{
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.school__content__achievement{
+  font-size: 10px;
+  font-family: 'Barlow', sans-serif;
+  word-spacing: 1.6px;
+  background-color: #f8f8f8;
+  color: #888;
+  margin-top: 15px;
+  padding: 10px;
 }

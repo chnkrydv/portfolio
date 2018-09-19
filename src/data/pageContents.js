@@ -86,6 +86,53 @@ const jobsPageContent = {
   ]
 };
 
+const educationContent = {
+  schools: [
+    {
+      startYear: '2010',
+      endYear: '2014',
+      name: 'NIT Rouekela',
+      degree: 'Bachelor of Technology',
+      subject: 'Electronics & Instrumentation',
+      score: '7.45 CGPA',
+      achievements: [
+        'FINAL YEAR PROJECT: Handwritten Character Recognition Algorithm',
+        'WORKSHOP: Gesture Control Workshop',
+        'Cognitive Science',
+        'Urban Governance',
+        'Optimization Techniques Using Numerical Methods',
+        'Real Analysis',
+      ]
+    },
+    {
+      startYear: '2009',
+      endYear: '2007',
+      name: 'B. D. Public School',
+      degree: 'CBSE 10+2',
+      subject: 'Physics, Chemistry and Maths',
+      score: '74.0 %',
+      achievements: [
+        'Studied under Super30 fame mathematician - Anand Kumar',
+        '88.4% aggragate in PCM',
+        'COMPUTER COURSES: Visual Basic & SQL'
+      ]
+    },
+    {
+      startYear: '2007',
+      endYear: '2003',
+      name: 'Jawahar Navodaya Vidyalaya',
+      degree: 'CBSE 10',
+      subject: 'Science, Maths, Socials, English & Hindi',
+      score: '90.0 %',
+      achievements: [
+        "Won 2nd prize in district's Painitng Competition",
+        'Represented our JNV school in science exhibition',
+      ]
+    },
+  ],
+  skills: [],
+}
+
 const blogsPageContent = {
   blogs: [
     {
@@ -183,6 +230,7 @@ const testimonialsPageContent = {
 
 export default {
   jobsPageContent,
+  educationContent,
   blogsPageContent,
   testimonialsPageContent,
 };

@@ -1,6 +1,6 @@
 const initState = {
   isBannerPage: false,
-  selectedMenuIndex: 5,
+  selectedMenuIndex: 1,
   selectedTabIndex: 0,
   scrollTopMax: 0,
   scrollTop: 0,

@@ -10,7 +10,7 @@
 
 .card{
   height: auto;
-  width: 100%;
+  width: auto;
   background-color: #f8f8f8;
   box-shadow: 0px 10px 20px 2px #ddd;
 }
@@ -83,8 +83,8 @@
 
 .timeline--horizontal{
   grid-template-columns: 1fr;
-  grid-template-rows: 150px 25px;
-  height: 175px;
+  grid-template-rows: 30px 15px;
+  height: 45px;
   width: 100%;
 }
 
@@ -140,6 +140,8 @@
 }
 
 .timeline__info--horizontal{
+  text-align: left;
+  height: auto;
 }
 
 .timeline__info__title{

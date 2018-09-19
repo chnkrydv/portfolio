@@ -5,7 +5,6 @@ import barebone from '../../data/barebone';
 import { selectMenu, log } from '../../store/actions';
 import { Profile, Menu, Footer } from './';
 import './_container.css';
-import { Logger } from '../components';
 
 const Sidebar = ({ selectedMenuIndex, selectMenu, logs, log }) => {
   const { getMenus } = barebone;
@@ -19,7 +18,6 @@ const Sidebar = ({ selectedMenuIndex, selectMenu, logs, log }) => {
         selectMenu={selectMenu}
       />
       <Footer />
-      <Logger logs={logs}/>
     </div>
   );
 }
