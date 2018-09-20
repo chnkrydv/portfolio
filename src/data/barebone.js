@@ -18,13 +18,9 @@ const knowledgePages = [
 ];
 const gigsPages = [
   {
-    header: 'DESIGNS',
+    header: 'WEB & NATIVE APPS',
     content: {}
   },
-  {
-    header: 'APPS',
-    content: {}
-  }
 ];
 const blogsPages = [
   {
@@ -41,10 +37,6 @@ const fuelPages = [
     header: 'FOOD',
     content: {}
   },
-  {
-    header: 'DREAM',
-    content: {}
-  }
 ];
 const testimonialsPages = [
   {
@@ -54,7 +46,7 @@ const testimonialsPages = [
 ];
 const socialPages = [
   {
-    header: 'SOCIAL COMPULSION',
+    header: 'SOCIAL FOOTPRINT',
     content: {}
   }
 ];
@@ -72,7 +64,7 @@ const areas = [
   },
   {
     name: 'gigs',
-    menuTitle: 'gigs',
+    menuTitle: 'my gigs',
     pages: gigsPages
   },
   {
@@ -92,7 +84,7 @@ const areas = [
   },
   {
     name: 'social',
-    menuTitle: 'judge me here',
+    menuTitle: 'find me here',
     pages: socialPages
   },
 ];

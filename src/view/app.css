@@ -9,10 +9,10 @@ body {
   position: absolute;
   display: grid;
   grid-template-columns: 25fr 90fr;
-  top: 20px;
-  bottom: 40px;
-  right: 8%;
-  left: 8%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
   text-align: center;
   background-color: white;
   box-shadow: 0 15px 20px 5px #ccc;

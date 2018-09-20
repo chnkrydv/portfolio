@@ -1,11 +1,17 @@
-const logoPath = 'images/companies/';
-const people = name => `images/people/${name.toLowerCase()}.jpg`;
-const emoji = name => `images/emojis/${name.toLowerCase()}.png`;
+const path = (item, format) => (name, formatOverride) => 'images/' + item.toLowerCase() + '/' + name.toLowerCase() + '.' + (formatOverride || format).toLowerCase();
+const blog = path('blog', 'jpg');
+const company = path('company', 'png');
+const emoji = path('emoji', 'png');
+const flick = path('flick', 'jpg');
+const food = path('food', 'jpg');
+const gig = path('gig', 'gif')
+const people = path('people', 'jpg');
+const social = path('social', 'png');
 
 const jobsPageContent = {
   jobs: [
     {
-      logo: logoPath + 'pearson.png',
+      logo: company('pearson'),
       endDate: 'PRESENT DAY',
       endDateStatus: 'Currently working in Pearson',
       location: 'Bengaluru, KA India',
@@ -23,7 +29,7 @@ const jobsPageContent = {
       ]
     },
     {
-      logo: logoPath + 'tricon.jpg',
+      logo: company('tricon','jpg'),
       endDate: 'OCT 2017',
       endDateStatus: 'Joined Pearson under payroll of Tricon Infotech',
       location: 'Bengaluru, KA India',
@@ -44,7 +50,7 @@ const jobsPageContent = {
       ]
     },
     {
-      logo: logoPath + 'ibm.png',
+      logo: company('ibm'),
       startDate: 'JUL 2014',
       startDateStatus: 'Joined IBM as a fresher with Associate System Engineer designation',
       endDate: 'JUL 2017',
@@ -130,66 +136,61 @@ const educationContent = {
       ]
     },
   ],
-  skills: [],
+  skills: [
+    {
+      name: 'JavaScript',
+      level: 100,
+    },
+    {
+      name: 'React',
+      level: 100,
+    },
+    {
+      name: 'Web',
+      level: 100,
+    },
+    {
+      name: 'Redux',
+      level: 100,
+    },
+    {
+      name: 'React Native',
+      level: 100,
+    },
+    {
+      name: 'Flutter',
+      level: 100,
+    },
+  ],
 }
+
+const gigsContent = {
+  gigs: [],
+  noGigErrorImage: gig('undermaintainance'),
+};
 
 const blogsPageContent = {
   blogs: [
     {
       title: 'Was Tulasidas a scientist?',
-      imageSrc: 'images/blogs/tulsidas.jpg',
+      imageSrc: blog('tulsidas'),
       synopsis: "It’s a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the core of this article is not to prove or disprove whether Goswami Tulasidas was a scientist or not. Rather in this article we’ll try to analyze about something miraculous he wrote in one of his creations — Hanuman Chalisa, which led us to suspect that he was indeed a scientist.",
       link: 'https://medium.com/@chnkrydv/was-tulasidas-a-scientist-9aba4bb85855',
-      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
+      tags: ['Ancient India', 'Mythology', 'Science']
     },
     {
       title: 'The Psychology of Ambitions',
-      imageSrc: 'images/blogs/ambition.jpg',
+      imageSrc: blog('ambition'),
       synopsis: "We, as one of the most advanced living beings, are full of desires. Desires be the first and last things in our life. It ranges from ‘turning our head in our own effing way’ to, may be, ‘slapping the president’. Desires can be from anything to everything. But when does a desire become ambition and when it does not?",
       link: 'https://medium.com/@chnkrydv/the-psychology-of-ambitions-29e092f06ceb',
-      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
+      tags: ['Mind', 'Psychology', 'Life Hack']
     },
     {
       title: 'Karma is not a bitch but the most sophisticated Algorithm for life',
-      imageSrc: 'images/blogs/karma.jpg',
+      imageSrc: blog('karma'),
       synopsis: "This is a widely believed perspective  that Karma is something like a 'Watcher', 'Punisher' or 'Grim Reaper' who only work in those (bad) shifts where they just have to go back to people saying - Watch ya'all. I know what you did last summer - willingly or unwillingly. There is no such shift for giving flowers to people who did good some time in past. Poor Karma! :(",
-      link: 'https://medium.com/p/e269d5eb15cd/edit',
-      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
-    },
-    {
-      title: 'Was Tulasidas a scientist?',
-      imageSrc: 'images/blogs/tulsidas.jpg',
-      synopsis: "It’s a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the core of this article is not to prove or disprove whether Goswami Tulasidas was a scientist or not. Rather in this article we’ll try to analyze about something miraculous he wrote in one of his creations — Hanuman Chalisa, which led us to suspect that he was indeed a scientist.",
-      link: 'https://medium.com/@chnkrydv/was-tulasidas-a-scientist-9aba4bb85855',
-      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
-    },
-    {
-      title: 'Karma is not a bitch but the most sophisticated Algorithm for life',
-      imageSrc: 'images/blogs/karma.jpg',
-      synopsis: "This is a widely believed perspective  that Karma is something like a 'Watcher', 'Punisher' or 'Grim Reaper' who only work in those (bad) shifts where they just have to go back to people saying - Watch ya'all. I know what you did last summer - willingly or unwillingly. There is no such shift for giving flowers to people who did good some time in past. Poor Karma! :(",
-      link: 'https://medium.com/p/e269d5eb15cd/edit',
-      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
-    },
-    {
-      title: 'Was Tulasidas a scientist?',
-      imageSrc: 'images/blogs/tulsidas.jpg',
-      synopsis: "It’s a better known fact that rishis (scholars or priests) in ancient India were no less than scientists. But the core of this article is not to prove or disprove whether Goswami Tulasidas was a scientist or not. Rather in this article we’ll try to analyze about something miraculous he wrote in one of his creations — Hanuman Chalisa, which led us to suspect that he was indeed a scientist.",
-      link: 'https://medium.com/@chnkrydv/was-tulasidas-a-scientist-9aba4bb85855',
-      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
-    },
-    {
-      title: 'The Psychology of Ambitions',
-      imageSrc: 'images/blogs/ambition.jpg',
-      synopsis: "We, as one of the most advanced living beings, are full of desires. Desires be the first and last things in our life. It ranges from ‘turning our head in our own effing way’ to, may be, ‘slapping the president’. Desires can be from anything to everything. But when does a desire become ambition and when it does not?",
-      link: 'https://medium.com/@chnkrydv/the-psychology-of-ambitions-29e092f06ceb',
-      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
-    },
-    {
-      title: 'Karma is not a bitch but the most sophisticated Algorithm for life',
-      imageSrc: 'images/blogs/karma.jpg',
-      synopsis: "This is a widely believed perspective  that Karma is something like a 'Watcher', 'Punisher' or 'Grim Reaper' who only work in those (bad) shifts where they just have to go back to people saying - Watch ya'all. I know what you did last summer - willingly or unwillingly. There is no such shift for giving flowers to people who did good some time in past. Poor Karma! :(",
-      link: 'https://medium.com/p/e269d5eb15cd/edit',
-      tags: ['Mind', 'Future', 'Civilization', 'Psychology', 'Politics', 'Tech', 'Programming']
+      link: '',
+      tags: ['Mind', 'Psychology', 'Algorithm']
     },
   ]
 }
@@ -228,9 +229,28 @@ const testimonialsPageContent = {
   ]
 }
 
+const socialContent = {
+  sites: [
+    {
+      link: 'https://www.linkedin.com/in/chnkrydv/',
+      imgSrc: social('linkedin')
+    },
+    {
+      link: 'https://github.com/chnkrydv',
+      imgSrc: social('github')
+    },
+    {
+      link: 'https://medium.com/@chnkrydv',
+      imgSrc: social('medium')
+    },
+  ],
+}
+
 export default {
   jobsPageContent,
   educationContent,
+  gigsContent,
   blogsPageContent,
   testimonialsPageContent,
+  socialContent,
 };

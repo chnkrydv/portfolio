@@ -13,7 +13,7 @@ const Content = ({ selectedMenuIndex, selectedTabIndex, log, scroll, scrollTopMa
 
   const getPageComponent = () => {
     switch (getPage(selectedMenuIndex, selectedTabIndex).header) {
-      case 'APPS':
+      case 'WEB & NATIVE APPS':
         return <Apps />;
       case 'BLOGS':
         return <Blogs />;
@@ -29,7 +29,7 @@ const Content = ({ selectedMenuIndex, selectedTabIndex, log, scroll, scrollTopMa
         return <Jobs />;
       case 'SKILLS':
         return <Skills />;
-      case 'SOCIAL COMPULSION':
+      case 'SOCIAL FOOTPRINT':
         return <Social />;
       case 'TESTIMONIALS':
         return <Testimonials />;
