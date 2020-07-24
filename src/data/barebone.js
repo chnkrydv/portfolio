@@ -53,6 +53,11 @@ const socialPages = [
 
 const areas = [
   {
+    name: 'gigs',
+    menuTitle: 'my gigs',
+    pages: gigsPages
+  },
+  {
     name: 'jobs',
     menuTitle: 'job details',
     pages: jobPages
@@ -61,11 +66,6 @@ const areas = [
     name: 'knowledge',
     menuTitle: 'education n stuff',
     pages: knowledgePages
-  },
-  {
-    name: 'gigs',
-    menuTitle: 'my gigs',
-    pages: gigsPages
   },
   {
     name: 'blogs',

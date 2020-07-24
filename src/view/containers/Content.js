@@ -40,18 +40,25 @@ const Content = ({ selectedMenuIndex, selectedTabIndex, log, scroll, scrollTopMa
     }
   };
 
+  const onScroll = (e) => {
+    const targetHeight = e.target.clientHeight;
+    const scrollTop = e.target.scrollTop;
+    const scrollExtent = targetHeight + scrollTop;
+    const scrollTopMax = e.target.scrollHeight;
+    console.log(scrollExtent >= scrollTopMax)
+    console.log(scrollTopMax)
+    console.log(e.nativeEvent)
+    log({scrollTopMax, scrollTop})
+    scroll(scrollTopMax, scrollTop);
+    // if(scrollExtent >= scrollTopMax)
+  }
+
   return (
     <div className="content">
       <Headers className="content__header" />
       <div
         className="content__item"
-        onScroll={({ target }) => {
-          const scrollTop = target.scrollTop;
-          const scrollTopMax = target.scrollTopMax;
-          console.log(target)
-          log({scrollTopMax, scrollTop})
-          scroll(scrollTopMax, scrollTop);
-        }}
+        onScroll={onScroll}
       >
         <div className="content__item__scrollable">
           {getPageComponent()}

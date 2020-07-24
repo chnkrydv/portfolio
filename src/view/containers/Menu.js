@@ -7,7 +7,6 @@ const Menu = ({
   selectedIndex,
   selectMenu
 }) =>  {
-  console.log('selectedIndex: ', selectedIndex);
   return (
     <div className="menu">
       {menus.map((menu, key) => (

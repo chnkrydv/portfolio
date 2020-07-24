@@ -11,9 +11,28 @@ const social = path('social', 'png');
 const jobsPageContent = {
   jobs: [
     {
+      logo: company('cisco'),
+      endDate: 'JUN 2019',
+      endDateStatus: 'Left Cisco to work on personal projects',
+      location: 'Bengaluru, KA India',
+      company: 'Cisco Systems',
+      designation: 'Engineer III',
+      achievements: [
+        "Architeced, developed and shipped the whole app solely",
+        "Mentored others in React",
+      ],
+      works: [
+        {
+          app: 'Users & Audiences',
+          role: 'React-Redux Developer',
+          description: "Blueprint is like a portal for couple of different applications for different purposes. I have worked on one of the first Blueprint applications called Rights. Rights is a tool for requesting usage rights for media assets such as Audio, Video, Image and Text Extract. The aim is to monitor and control the usage of any copyright protected media from external source, within a Pearson's digital or print publication. \nMy role was of a React-Redux-JavaScript developer, working mostly on Frontend and little bit of Backend (Node.js). I created a fair portion UI parts and solved a good number of bugs during development phase of Blueprint-Rights application",
+        }
+      ]
+    },
+    {
       logo: company('pearson'),
-      endDate: 'PRESENT DAY',
-      endDateStatus: 'Currently working in Pearson',
+      endDate: 'OCT 2018',
+      endDateStatus: 'Joined Cisco as Engineer III',
       location: 'Bengaluru, KA India',
       company: 'Pearson India Education Services',
       designation: 'Senior Engineer',

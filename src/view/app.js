@@ -7,7 +7,7 @@ import './app.css';
 import rootReducer from '../store/reducers/';
 import { Sidebar, Content } from './containers/';
 
-const store = createStore(rootReducer, applyMiddleware(logger));
+const store = createStore(rootReducer, applyMiddleware());
 
 const App = () => (
   <Provider store={store}>

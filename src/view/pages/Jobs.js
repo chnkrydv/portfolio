@@ -27,10 +27,14 @@ const Jobs = () => {
                 ? null
                 : (
                   <Card className="job__item__card" lightShadow={true}>
-                    <img className="job__item__card__logo" src={job.logo} />
                     <div className="job__item__card__details">
-                      <div className="card__details__company">{job.company}</div>
-                      <div className="card__details__designation">{job.designation}</div>
+                      <div className="card__company">
+                        <div className="card__company__titles">
+                          <div className="card__company__name">{job.company}</div>
+                          <div className="card__company__designation">{job.designation}</div>
+                        </div>
+                        <img className="card__company__logo" src={job.logo} />
+                      </div>
                       <div className="card__details__achievements">
                         {job.achievements.map(achievement => (
                           <div className="achievements__achievement">{achievement}</div>
